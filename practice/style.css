@@ -1,0 +1,202 @@
+:root{
+    --main-color : #E6B86A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(180deg, #0F3536 0%, #0B686A 100%);
+    background-repeat: no-repeat;
+    height:300vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:180px;       
+    top: 33px;                 
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-left{
+    display: flex;
+}
+.header-left__phone{
+    color: var(--main-color);
+}
+.header-wrap-left{
+    margin-right: 10px;
+    
+}
+.header-wrap-left i {
+    color: var(--main-color);
+}
+.header-search{
+    padding: 5px;
+    border: 2px solid #0D0D0D;
+    border-radius: 15px;
+    background-color:#0D0D0D;
+}
+.header-search input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--main-color);
+
+}
+.header-search input::placeholder{
+    color: var(--main-color);
+}
+
+/* .header-search i {
+    color: var(--main-color);
+} */
+
+.header-2{
+    border-top: 1px solid #292929;
+    padding: 20px 0px;
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+
+}
+.header-2__home.active{
+    color: var(--main-color);
+}
+.header-2 {
+    color :white;
+}
+
+.blockchain_solutions{
+    justify-content: space-between;
+    display: flex;
+    height:180px;         
+    margin-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Text-Blocktrain em {
+    position: absolute;
+    height: 38px;
+    top: 435px; 
+    font-family: Mulish;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: #E6B86A;
+}
+
+.Text-Blocktrain strong {
+    position: absolute;
+    width :527px;
+    top :515px;
+    font-size: 60px;
+    font-family: UTM Avo;
+    color : #FFFFFF;
+}
+
+.Text-Blocktrain p {
+    position: absolute;
+    font-size: 30px;
+    color :white;
+    top: 650px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.Text-Blocktrain button {
+    position: absolute;
+    width: 149px;
+    height: 30px;
+    top: 697px;
+    border: none;
+    /* blue */
+    color :#FFFFFF;
+    background: #0F3536;
+    border-radius: 50px;
+    margin-top: 34px;
+}
+
+.blockchain-img{
+    position: absolute;
+    width: 391px;
+    height: 101px;
+    left: 604px;
+    top: 33px;
+}
+.blockchain__image1{
+    position: absolute;
+    left: 617px;
+    top: 98px;
+    float: right;
+}
+.blockchain__image2{
+    position: absolute;
+    width: 906px;
+    height: 420px;
+    left: 698px;
+    top: 414px;
+}
+
+.margin_aboutus {
+    
+    display: flex;
+    height:180px;         
+    margin-top: 500px;
+    width: 1595px;
+    margin: 0 auto;
+}
+/* .backgrowAbout img {
+  margin-top: 450px;
+    
+} */
+
+.image1-about img {
+    position: absolute;
+    top: 500px;
+    
+}
+ 
+
+
+.text-logo {
+    margin-top: 800px;
+    margin-left:  170px;
+}
+ 
+ .section-1 {
+    font-family: UTM Avo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.2em;
+    color: #E6B86A;
+    
+ }
+
+.text-logo p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 147% */
+    color: #FFFFFF;  
+}
+.text-logo li {
+    color: #FFFFFF; 
+}
+ 
